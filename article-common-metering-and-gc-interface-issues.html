@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Common Metering and GC Interface Issues | Chromatograph Services Knowledge Hub</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Technical article from the Chromatograph Services Knowledge Hub covering common metering and gc interface issues for engineers and technicians working with analyser and measurement systems."/>
+<link rel="canonical" href="https://www.agcls.com.au/article-common-metering-and-gc-interface-issues.html"/>
+<meta property="og:title" content="Common Metering and GC Interface Issues | Chromatograph Services Knowledge Hub"/>
+<meta property="og:description" content="Technical article from the Chromatograph Services Knowledge Hub covering common metering and gc interface issues for engineers and technicians working with analyser and measurement systems."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.agcls.com.au/article-common-metering-and-gc-interface-issues.html"/>
+<meta property="og:image" content="https://www.agcls.com.au/chromatogram-hero.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Common Metering and GC Interface Issues | Chromatograph Services Knowledge Hub"/>
+<meta name="twitter:description" content="Technical article from the Chromatograph Services Knowledge Hub covering common metering and gc interface issues for engineers and technicians working with analyser and measurement systems."/>
+<meta name="twitter:image" content="https://www.agcls.com.au/chromatogram-hero.png"/>
+<link rel="icon" type="image/png" href="https://www.agcls.com.au/logo-primary-cropped.png"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Common Metering and GC Interface Issues", "url": "https://www.agcls.com.au/article-common-metering-and-gc-interface-issues.html", "description": "Technical article from the Chromatograph Services Knowledge Hub covering common metering and gc interface issues for engineers and technicians working with analyser and measurement systems.", "author": {"@type": "Organization", "name": "Chromatograph Services Pty Ltd"}, "publisher": {"@type": "Organization", "name": "Chromatograph Services Pty Ltd", "logo": {"@type": "ImageObject", "url": "https://www.agcls.com.au/logo-primary.png"}}}</script>
+</head>
+<body>
+<div class="top-contact-bar">
+  <div class="container top-contact-inner">
+    <div>Advanced Gas Chromatography Lifecycle Solutions</div>
+    <div class="top-contact-links">
+      <span><strong>Phone:</strong> +61 450 637 652</span>
+      <span><strong>Email:</strong> info@agcls.com.au</span>
+      <a href="https://www.linkedin.com/company/106451980/admin/dashboard/" target="_blank" rel="noopener"><strong>LinkedIn</strong></a>
+    </div>
+  </div>
+</div>
+<header>
+  <div class="container nav">
+    <div class="brand-wrap">
+      <img src="logo-primary-cropped.png" alt="Chromatograph Services logo" class="brand-logo">
+      <div class="brand-text">
+        <div class="brand">Chromatograph Services Pty Ltd</div>
+        <small>Gas Chromatograph &amp; Analyser Specialists</small>
+      </div>
+    </div>
+    <button class="mobile-toggle" onclick="toggleMenu()">Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Request Service</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-home" style="padding:78px 0 56px;">
+  <div class="container">
+    <div class="hero-badge">Flow Measurement & Metering</div>
+    <p style="margin:16px 0 8px;color:#e6eef9;"><a href="knowledge-hub.html" style="color:#fff;opacity:.9;">Knowledge Hub</a> / Flow Measurement & Metering</p>
+    <h1 style="max-width:920px;">Common Metering and GC Interface Issues</h1>
+    <p style="max-width:860px;">Where gas chromatograph outputs and metering calculations fail to align, and why those issues matter.</p>
+    <div class="hero-cta-row">
+      <a href="contact.html" class="btn btn-primary">Discuss an issue</a>
+      <a href="knowledge-hub.html" class="btn btn-outline">Back to Knowledge Hub</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container sidebar-layout">
+    <div>
+      <section id="sec1" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Why the interface is critical</h2>
+          <p>Gas composition data only becomes commercially useful when it reaches the metering calculation correctly. If the transfer between the chromatograph and the metering system is wrong, the final energy and corrected flow results can be wrong even when both instruments are individually healthy.</p>
+          <p>The interface is therefore part of the measurement system, not an accessory.</p>
+      </section>      <section id="sec2" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Typical issue types</h2>
+          <p>Common problems include stale composition values, incorrect component mapping, communication dropouts, mismatched concentration basis, and wrong assumptions about normalisation or update timing.</p>
+          <p>These issues often create believable values, which makes them easy to overlook.</p>
+      </section>      <section id="sec3" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Symptoms worth investigating</h2>
+          <p>Watch for unexplained changes in calorific value, disagreement between expected and displayed gas properties, interface alarms, or situations where the chromatograph looks healthy but the metering value does not.</p>
+          <p>Where values diverge, the transfer path should be reviewed before assuming a process change.</p>
+      </section>      <section id="sec4" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">A practical review approach</h2>
+          <p>Check what the chromatograph is currently producing, what the receiving system is currently using, and how often the update is expected to occur. Then confirm that each component is mapped and treated correctly in the receiving logic.</p>
+          <p>Comparing transmitter-side data with receiver-side data is often the decisive step.</p>
+      </section>      <section id="sec5" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Why interface discipline matters</h2>
+          <p>Good interface design and review reduce commercial risk and shorten troubleshooting time. In complex systems, some of the most important failures happen in the data handoff rather than inside the instruments themselves.</p>
+          <p>Strong measurement requires strong integration.</p>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="card toc">
+        <h3>On this page</h3>
+        <a href="#sec1">Why the interface is critical</a>
+        <a href="#sec2">Typical issue types</a>
+        <a href="#sec3">Symptoms worth investigating</a>
+        <a href="#sec4">A practical review approach</a>
+        <a href="#sec5">Why interface discipline matters</a>
+      </div>
+
+      <div class="card" style="margin-top:18px;background:linear-gradient(135deg,var(--brand-primary),var(--brand-secondary));color:#fff;">
+        <h3 style="color:#fff;">Need support with a similar issue?</h3>
+        <p style="color:#e4eef8;">Field-based support for gas chromatographs, analysers, sample systems, and measurement troubleshooting across Australia.</p>
+        <a href="contact.html" class="btn btn-secondary">Request technical support</a>
+      </div>
+
+      <div class="card" style="margin-top:18px;">
+        <h3>Related articles</h3>
+        <p><a href="article-ultrasonic-flowmeters-in-gas-metering.html" style="color:var(--brand-primary);font-weight:700;">Ultrasonic Flowmeters in Gas Metering</a><br><span style="color:var(--text-soft);">A practical introduction to how ultrasonic flowmeters measure gas flow and why installation quality matters.</span></p><p><a href="article-flow-computers-and-energy-calculation-chains.html" style="color:var(--brand-primary);font-weight:700;">Flow Computers and Energy Calculation Chains</a><br><span style="color:var(--text-soft);">Where pressure, temperature, composition, and meter data come together to create reportable flow and energy values.</span></p><p><a href="article-metering-system-architecture-basics.html" style="color:var(--brand-primary);font-weight:700;">Metering System Architecture Basics</a><br><span style="color:var(--text-soft);">A system-level view of how field instruments, flow computers, and gas quality measurement work together.</span></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 Chromatograph Services Pty Ltd — specialist GC service, knowledge, and selected product support.</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

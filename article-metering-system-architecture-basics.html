@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metering System Architecture Basics | Chromatograph Services Knowledge Hub</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Technical article from the Chromatograph Services Knowledge Hub covering metering system architecture basics for engineers and technicians working with analyser and measurement systems."/>
+<link rel="canonical" href="https://www.agcls.com.au/article-metering-system-architecture-basics.html"/>
+<meta property="og:title" content="Metering System Architecture Basics | Chromatograph Services Knowledge Hub"/>
+<meta property="og:description" content="Technical article from the Chromatograph Services Knowledge Hub covering metering system architecture basics for engineers and technicians working with analyser and measurement systems."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.agcls.com.au/article-metering-system-architecture-basics.html"/>
+<meta property="og:image" content="https://www.agcls.com.au/chromatogram-hero.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Metering System Architecture Basics | Chromatograph Services Knowledge Hub"/>
+<meta name="twitter:description" content="Technical article from the Chromatograph Services Knowledge Hub covering metering system architecture basics for engineers and technicians working with analyser and measurement systems."/>
+<meta name="twitter:image" content="https://www.agcls.com.au/chromatogram-hero.png"/>
+<link rel="icon" type="image/png" href="https://www.agcls.com.au/logo-primary-cropped.png"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Metering System Architecture Basics", "url": "https://www.agcls.com.au/article-metering-system-architecture-basics.html", "description": "Technical article from the Chromatograph Services Knowledge Hub covering metering system architecture basics for engineers and technicians working with analyser and measurement systems.", "author": {"@type": "Organization", "name": "Chromatograph Services Pty Ltd"}, "publisher": {"@type": "Organization", "name": "Chromatograph Services Pty Ltd", "logo": {"@type": "ImageObject", "url": "https://www.agcls.com.au/logo-primary.png"}}}</script>
+</head>
+<body>
+<div class="top-contact-bar">
+  <div class="container top-contact-inner">
+    <div>Advanced Gas Chromatography Lifecycle Solutions</div>
+    <div class="top-contact-links">
+      <span><strong>Phone:</strong> +61 450 637 652</span>
+      <span><strong>Email:</strong> info@agcls.com.au</span>
+      <a href="https://www.linkedin.com/company/106451980/admin/dashboard/" target="_blank" rel="noopener"><strong>LinkedIn</strong></a>
+    </div>
+  </div>
+</div>
+<header>
+  <div class="container nav">
+    <div class="brand-wrap">
+      <img src="logo-primary-cropped.png" alt="Chromatograph Services logo" class="brand-logo">
+      <div class="brand-text">
+        <div class="brand">Chromatograph Services Pty Ltd</div>
+        <small>Gas Chromatograph &amp; Analyser Specialists</small>
+      </div>
+    </div>
+    <button class="mobile-toggle" onclick="toggleMenu()">Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Request Service</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-home" style="padding:78px 0 56px;">
+  <div class="container">
+    <div class="hero-badge">Flow Measurement & Metering</div>
+    <p style="margin:16px 0 8px;color:#e6eef9;"><a href="knowledge-hub.html" style="color:#fff;opacity:.9;">Knowledge Hub</a> / Flow Measurement & Metering</p>
+    <h1 style="max-width:920px;">Metering System Architecture Basics</h1>
+    <p style="max-width:860px;">A system-level view of how field instruments, flow computers, and gas quality measurement work together.</p>
+    <div class="hero-cta-row">
+      <a href="contact.html" class="btn btn-primary">Discuss an issue</a>
+      <a href="knowledge-hub.html" class="btn btn-outline">Back to Knowledge Hub</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container sidebar-layout">
+    <div>
+      <section id="sec1" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">What a metering system includes</h2>
+          <p>A gas metering system usually includes primary flow measurement, pressure and temperature inputs, gas composition measurement or property input, and a calculation platform that produces corrected totals and energy values.</p>
+          <p>The architecture matters because each part supports the final reported quantity.</p>
+      </section>      <section id="sec2" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Why redundancy and verification matter</h2>
+          <p>Many systems include duty and standby arrangements, check streams, or verification pathways to maintain confidence and availability. These features are not only operational conveniences; they are part of how the measurement is defended over time.</p>
+          <p>A well-structured architecture supports both uptime and auditability.</p>
+      </section>      <section id="sec3" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Data flow through the system</h2>
+          <p>Field instruments provide live measurements, which are transmitted to the calculation platform. Gas composition and property data are integrated so that volume can be corrected and energy can be derived under the agreed reference basis.</p>
+          <p>Every transfer point in that path is a possible quality point to review.</p>
+      </section>      <section id="sec4" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">Why interface quality is important</h2>
+          <p>A metering system can contain strong individual instruments but still perform poorly if communications, mapping, or configuration between them are weak. Architecture is therefore more than piping and cabinets; it includes data relationships.</p>
+          <p>Technical correctness in one device does not guarantee correctness in the full system.</p>
+      </section>      <section id="sec5" class="card" style="margin-bottom:18px;">
+        <h2 style="margin-top:0;">What users should understand</h2>
+          <p>Operators and maintainers benefit from knowing which devices produce raw inputs, which ones calculate derived values, and where alarms or discrepancies should be investigated first.</p>
+          <p>Simple architecture clarity can prevent long and expensive troubleshooting later.</p>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="card toc">
+        <h3>On this page</h3>
+        <a href="#sec1">What a metering system includes</a>
+        <a href="#sec2">Why redundancy and verification matter</a>
+        <a href="#sec3">Data flow through the system</a>
+        <a href="#sec4">Why interface quality is important</a>
+        <a href="#sec5">What users should understand</a>
+      </div>
+
+      <div class="card" style="margin-top:18px;background:linear-gradient(135deg,var(--brand-primary),var(--brand-secondary));color:#fff;">
+        <h3 style="color:#fff;">Need support with a similar issue?</h3>
+        <p style="color:#e4eef8;">Field-based support for gas chromatographs, analysers, sample systems, and measurement troubleshooting across Australia.</p>
+        <a href="contact.html" class="btn btn-secondary">Request technical support</a>
+      </div>
+
+      <div class="card" style="margin-top:18px;">
+        <h3>Related articles</h3>
+        <p><a href="article-ultrasonic-flowmeters-in-gas-metering.html" style="color:var(--brand-primary);font-weight:700;">Ultrasonic Flowmeters in Gas Metering</a><br><span style="color:var(--text-soft);">A practical introduction to how ultrasonic flowmeters measure gas flow and why installation quality matters.</span></p><p><a href="article-flow-computers-and-energy-calculation-chains.html" style="color:var(--brand-primary);font-weight:700;">Flow Computers and Energy Calculation Chains</a><br><span style="color:var(--text-soft);">Where pressure, temperature, composition, and meter data come together to create reportable flow and energy values.</span></p><p><a href="article-common-metering-and-gc-interface-issues.html" style="color:var(--brand-primary);font-weight:700;">Common Metering and GC Interface Issues</a><br><span style="color:var(--text-soft);">Where gas chromatograph outputs and metering calculations fail to align, and why those issues matter.</span></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 Chromatograph Services Pty Ltd — specialist GC service, knowledge, and selected product support.</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

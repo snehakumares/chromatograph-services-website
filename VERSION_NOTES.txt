@@ -1,0 +1,27 @@
+Version: v66
+Change: Products page restructured into a premium category overview with dedicated category pages, quote-list functionality, and a grouped product quote request workflow without online pricing.
+V68: Integrated Knowledge Hub article structure into the latest site build. Added linked topic-map article pages and updated knowledge-hub navigation only. No changes made to other main site sections.
+V68 - Knowledge Hub rebuild: preserved navigation-hub page format, added redesigned hero section, linked topic-map cards to article pages, expanded the article architecture to a 50-article master roadmap, and added 16 new article pages without changing other website sections.
+
+- v68 Knowledge Hub UX refinement: rewrote hero copy and structure, improved right-panel messaging, upgraded domain descriptions, refined tag-system language, added recommended starting points, and strengthened navigation/readability while keeping the rest of the site unchanged.
+
+- v68 knowledge hub hero refinement: replaced the generic knowledge hub hero with an article-led technical hero, updated the recommended starting points copy, and aligned the domain-introduction wording with the engineering tone of the page.
+
+V69 - Knowledge Hub hero philosophy integration: updated only the Knowledge Hub hero to present the page as a broader analytical instrument knowledge library. Replaced article-led hero messaging with purpose-driven engineering language, aligned the layout to the home page hero style, and introduced a right-side panel focused on the issues, causes, and solution paths engineers come to understand. No other site sections changed.
+
+V70 - Knowledge Hub hero polish: refined the approved hero with lighter, more scannable copy, corrected grammar, strengthened the AI-assisted troubleshooting statement, shortened the right-panel heading, and added a subtle divider to improve visual hierarchy above the domain chips. No other sections were modified.
+V71: Refined Knowledge Hub content below the hero. Improved wording in Recommended Technical Starting Points and Browse the Knowledge Domains, and upgraded domain card descriptions to align with the engineering tone and analytical instrumentation scope. Hero section unchanged and locked. No other site sections modified.
+
+
+v75 – Homepage hero CTA refinement
+Added working homepage hero call-to-action buttons for 'Request Service' and 'Talk to an Expert', plus a direct contact strip with phone and email links. Improved CTA visibility and mobile responsiveness without changing the overall hero layout.
+
+v76 – Homepage visibility and contact CTA refinement
+Improved visibility of the Engineering Approach label on the dark blue card. Converted the remote troubleshooting support banner into a clickable link to the contact page. Replaced the direct hero phone call link with a WhatsApp contact link better suited to desktop and mobile users.
+
+v78 – Launch SEO and contact refinement
+Updated header phone number to include the country code (+61-450637652). Replaced the WhatsApp symbol with plain WhatsApp text to avoid trademark-style icon usage. Added launch-ready SEO elements across the site including page titles, meta descriptions, canonical tags, Open Graph and Twitter preview tags, favicon links, robots.txt, sitemap.xml, and structured data schema markup. Preserved the homepage direct contact strip and remote troubleshooting support link behaviour.
+
+
+v79 – Final phone formatting update
+Updated phone number presentation to the spaced international format '+61 450 637 652' in the global header and contact page. No other content or layout changes.

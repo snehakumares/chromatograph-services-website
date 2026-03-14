@@ -1,0 +1,8 @@
+VERSION v73
+
+Improvements:
+- Combined previous header and mobile fixes
+- Added SEO optimisation basics
+- Added robots.txt
+- Added sitemap.xml
+- Prepared for Google indexing

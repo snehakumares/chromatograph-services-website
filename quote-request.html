@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Quote Request | Chromatograph Services Pty Ltd</title><link rel="stylesheet" href="styles.css"><meta name="description" content="Request a quote for gas chromatograph spares, sample system components, service support, and selected analytical instrument products."/>
+<link rel="canonical" href="https://www.agcls.com.au/quote-request.html"/>
+<meta property="og:title" content="Quote Request | Chromatograph Services Pty Ltd"/>
+<meta property="og:description" content="Request a quote for gas chromatograph spares, sample system components, service support, and selected analytical instrument products."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.agcls.com.au/quote-request.html"/>
+<meta property="og:image" content="https://www.agcls.com.au/logo-primary.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Quote Request | Chromatograph Services Pty Ltd"/>
+<meta name="twitter:description" content="Request a quote for gas chromatograph spares, sample system components, service support, and selected analytical instrument products."/>
+<meta name="twitter:image" content="https://www.agcls.com.au/logo-primary.png"/>
+<link rel="icon" type="image/png" href="https://www.agcls.com.au/logo-primary-cropped.png"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Quote Request | Chromatograph Services Pty Ltd", "url": "https://www.agcls.com.au/quote-request.html", "description": "Request a quote for gas chromatograph spares, sample system components, service support, and selected analytical instrument products."}</script>
+</head><body>
+<div class="top-contact-bar">
+  <div class="container top-contact-inner">
+    <div>Practical GC and analyser support across Australia</div>
+    <div class="top-contact-links">
+      <span><strong>Phone:</strong> +61 450 637 652</span>
+      <span><strong>Email:</strong> info@agcls.com.au</span>
+      <a href="https://www.linkedin.com/company/106451980/" target="_blank" rel="noopener"><strong>LinkedIn</strong></a>
+    </div>
+  </div>
+</div>
+<header>
+  <div class="container nav">
+    <div class="brand-wrap">
+      <img src="logo-primary-cropped.png" alt="Chromatograph Services logo" class="brand-logo">
+      <div class="brand-text">
+        <div class="brand">Chromatograph Services Pty Ltd</div>
+        <small>Gas Chromatograph &amp; Analyser Specialists</small>
+      </div>
+    </div>
+    <button class="mobile-toggle" onclick="toggleMenu()">Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Request Service</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="pill" style="background:rgba(255,255,255,.14);color:#eef6ff;">Product quote request</div>
+      <h1>Send a grouped product enquiry for quotation.</h1>
+      <p>Build a quote list from the product category pages and send one enquiry for review. No pricing is shown online. Quotations are prepared based on the selected items and any relevant application details.</p>
+      <div class="hero-list" style="margin-top:18px;max-width:720px;">
+        <div class="hero-item">Suitable for spare parts, regulators, fittings, sample conditioning items, calibration accessories, and maintenance tools.</div>
+        <div class="hero-item">Multiple items can be selected and sent in one enquiry for quotation.</div>
+        <div class="hero-item">If the application needs technical review first, include the relevant notes in the enquiry.</div>
+      </div>
+    </div>
+    <div class="quote-panel">
+      <h3>Current quote list</h3>
+      <p>Selected items are carried across the Products section and listed below.</p>
+      <div class="quote-list-box"><h4>Selected items (<span data-quote-count>0</span>)</h4><div data-quote-list></div></div>
+      <div class="quote-actions"><a href="products.html" class="btn btn-light">Continue Browsing Products</a><button type="button" class="btn btn-light" data-clear-quote>Clear List</button></div>
+    </div>
+  </div>
+</section>
+<section class="section"><div class="container two-col">
+  <div>
+    <div class="section-kicker">Quote enquiry</div>
+    <h2>Provide the key details for review.</h2>
+    <p class="lead">Use this form when you want a quotation for multiple items selected from the Products pages. The selected items are inserted automatically and your company name is included in the email subject line for quicker review.</p>
+    <div class="card" style="margin-top:22px;"><h3>What to include</h3><p>Where relevant, include the site or application, required quantity, urgency, and any notes on pressure, service conditions, compatibility, or installation constraints. This helps us review the request and respond more efficiently.</p></div>
+  </div>
+  <form class="form-wrap" id="quoteRequestForm" action="https://formsubmit.co/enquiries@agcls.com.au" method="POST">
+    <input type="hidden" name="_subject" id="quoteSubjectField" value="Product quote request - Chromatograph Services">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="quote-request.html?quote=sent">
+    <input type="hidden" name="Selected Items Summary" id="selectedItemsField" data-quote-summary>
+    <div class="form-intro"><div><div class="section-kicker">Request quote</div><h3>Send the selected items for review.</h3></div><p>No pricing is displayed online. Quotations are prepared after reviewing the selected items and any application notes you provide.</p></div>
+    <input name="Name" placeholder="Name" required>
+    <input name="Company" id="quoteCompanyField" placeholder="Company" required>
+    <input name="Email" type="email" placeholder="Email" required>
+    <input name="Phone" placeholder="Phone">
+    <input name="Site / Location" placeholder="Site / Location">
+    <textarea class="readonly-box" placeholder="Selected products will appear here" readonly data-quote-summary></textarea>
+    <textarea name="Application / Quantity Notes" placeholder="Application details, required quantity, urgency, or other notes"></textarea>
+    <div class="quote-form-note">Selected items are attached to the enquiry automatically. Add products from any category page, then return here to send the request.</div>
+    <button class="btn btn-primary" type="submit">Send Quote Request</button>
+  </form>
+</div></section>
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 Chromatograph Services Pty Ltd — specialist GC service, knowledge, and selected product support.</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="knowledge-hub.html">Knowledge Hub</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body></html>
