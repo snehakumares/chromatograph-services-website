@@ -38,8 +38,7 @@ function toggleMenu(){
     document.querySelectorAll('[data-quote-count]').forEach(el => el.textContent = cart.length);
     document.querySelectorAll('[data-quote-list]').forEach(el => el.innerHTML = cartMarkup(cart));
     document.querySelectorAll('[data-quote-summary]').forEach(el => {
-      el.value = cart.map(item => '- ' + item.name + (item.category ? ' (' + item.category + ')' : '')).join('
-');
+      el.value = cart.map(item => '- ' + item.name + (item.category ? ' (' + item.category + ')' : '')).join('');
     });
     document.querySelectorAll('[data-quote-json]').forEach(el => {
       el.value = cart.map(item => item.name + (item.category ? ' | ' + item.category : '')).join('; ');
@@ -86,8 +85,7 @@ function toggleMenu(){
           return;
         }
         if (selectedField) {
-          selectedField.value = cart.map(item => '- ' + item.name + (item.category ? ' (' + item.category + ')' : '')).join('
-');
+          selectedField.value = cart.map(item => '- ' + item.name + (item.category ? ' (' + item.category + ')' : '')).join('');
         }
       });
     }

@@ -14,7 +14,9 @@
   --max:1180px;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+}
 body{
   margin:0;
   font-family:Segoe UI, Arial, sans-serif;
@@ -1013,9 +1015,9 @@ html{scroll-behavior:smooth;}
     min-height:340px;
   }
   .hero-visual-card{
-    left:14px;
+    /* left:14px;
     right:14px;
-    bottom:14px;
+    bottom:14px; */
     padding:16px;
   }
   .remote-support-banner{
@@ -2203,5 +2205,55 @@ select{
 @media (max-width: 768px){
   .top-contact-inner{
     gap: 8px;
+  }
+}
+
+/* v80 white space resolution and other css corrections */
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
+@media (max-width: 980px){
+  .knowledge-hero-chips{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 75%;
+    margin-bottom: 20px;
+  }
+  .hero-visual-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero-direct-contact{
+    justify-content: center;
+  }
+  .footer-grid{
+    padding-left:60px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .footer-grid div:first-child{
+    grid-column: span 2;
+  }
+  .footer-links{
+    display: grid;
+    gap: 0px;
+  }
+  .top-contact-inner, header{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .hero-home h1{
+    margin-bottom: 50px;
+  }
+  .nav-links a:not(:last-child){
+    display: block;        
+    width: 100%;           
+    padding: 0px 16px;    
+    text-decoration: none; 
   }
 }
